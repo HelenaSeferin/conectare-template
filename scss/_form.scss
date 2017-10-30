@@ -7,11 +7,14 @@ section#form {
   .section-heading {
     color: $white;
     font-size: 27px;
-    font-weight: lighter;    
-    text-align: center; 
+    font-weight: lighter;
+    text-align: center;
     margin-bottom: 30px;
+    strong{
+      font-weight: 700;
+    }
   }
-    
+
   ::-webkit-input-placeholder {
     font-weight: 700;
     color: $gray-400;
@@ -90,4 +93,44 @@ section#form {
       }
     }
   }
+}
+
+
+section#form-dados {
+  padding: 10px 0 30px!important;
+  background-color: $medium-purple;
+  color: $white;
+  li{
+    list-style-type: none;
+    line-height: 34px;
+    font-weight: 300;
+    @include body-font;
+  }
+  .img{
+  position: relative;
+  }
+  img{
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    vertical-align: bottom;
+  }
+  .fa {
+    margin-right: 5px;
+  }
+  p{
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    span{
+      font-size: 17px;
+      color: #d1a737;
+    }
+  }
+
 }

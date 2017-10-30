@@ -9,9 +9,10 @@ section#area {
     color: $dark-purple;
     font-size: 27px;
     font-weight: lighter;
+    @include serif-font;
 
   }
-    
+
   ::-webkit-input-placeholder {
     font-weight: 700;
     color: $gray-400;
@@ -38,13 +39,14 @@ section#area {
     color: $grey;
     text-align: right;
     font-size: 15px;
+    @include serif-font;
   }
   .list{
     padding-bottom: 0;
     margin-bottom: 5px;
     color: $dark-purple;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 10px 0;
 
   }
   span{
@@ -52,5 +54,7 @@ section#area {
     font-size: 20px;
     display: block;
     margin-top: 20px;
+    font-weight: 300;
+    @include serif-font;
   }
 }

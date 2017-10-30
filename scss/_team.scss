@@ -7,6 +7,7 @@ section#team{
   text-align: center;
   h2 {
     font-size: 24px;
+    font-weight: lighter;
   }
   p {
     color: $dark-purple;
@@ -18,5 +19,6 @@ section#team{
   }
   span{
     color: $light-purple;
+    font-weight: 700;
   }
 }

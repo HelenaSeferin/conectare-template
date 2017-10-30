@@ -5,10 +5,12 @@ footer {
   padding: 25px 0;
   text-align: center;
   span.copyright {
-    font-size: 90%;
+    font-size: 13px;
     line-height: 40px;
     text-transform: none;
-    @include heading-font;
+    text-transform: uppercase;
+    font-weight: 700;
+    @include serif-font;
   }
   ul.quicklinks {
     font-size: 90%;

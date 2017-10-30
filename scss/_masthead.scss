@@ -14,14 +14,15 @@ header.masthead {
       font-size: 22px;
       line-height: 22px;
       margin-bottom: 25px;
-      @include serif-font;
+      font-weight: lighter;
+      @include body-font;
     }
     .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
-      @include heading-font;
+      @include body-font;
     }
     span{
       font-weight: bold;
@@ -38,14 +39,16 @@ header.masthead {
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px;
-        @include serif-font;
+        font-weight: lighter;
+        @include body-font;
       }
       .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
-        @include heading-font;
+        font-weight: lighter;
+        @include body-font;
       }
     }
   }

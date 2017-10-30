@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  @include heading-font;
+  @include body-font;
 }
 
 section {
@@ -43,7 +43,7 @@ section {
     font-weight: 400;
     color: $black;
     padding-bottom: 10px;
-    @include serif-font;
+    @include body-font;
   }
 }
 @media(min-width:768px) {

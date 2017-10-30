@@ -4,9 +4,11 @@
   h2 {
     font-size: 24px;
     margin-bottom: 40px;
+    font-weight: lighter;
   }
   span{
     color: $light-purple;
+    font-weight: 700;
   }
   .portfolio-item {
     background-image: url('../img/image-1.png');
@@ -19,35 +21,47 @@
     .portfolio-caption {
       width: 50%;
       margin: 0 auto;
-      padding: 40px 35px;
+      padding: 40px 30px;
       text-align: center;
       background-color: $white;
       float: right;
       height: 287px;
-      color: $grey;
+      color: $dark-purple;
+
       &:hover{
         background-color: $light-purple;
         color: $white;
         cursor: pointer;
+       h4{
+        border-bottom: 1px solid $white;
+       }
+       p{
+        color: $white;
+       }
       }
       h4 {
         font-size: 17px;
         font-weight: lighter;
         margin: 0 0 10px;
         padding-bottom: 10px;
-        border-bottom: 1px solid $white;
         text-transform: none;
+        text-transform: uppercase;
+        border-bottom: 1px solid $grey;
+        strong{
+          font-weight: 700;
+        }
       }
       p {
         font-size: 15px;
         margin: 0;
         text-align: justify;
+        color: $grey;
         @include serif-font;
       }
     }
 
-    
-  
+
+
 }
 @media(min-width:767px) {
   #portfolio {
@@ -56,4 +70,3 @@
     }
   }
 }
-  
