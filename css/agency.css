@@ -609,7 +609,8 @@ section#form {
       border: 1px solid #4e2f47;
       text-transform: uppercase;
       border-radius: 0;
-      cursor: pointer; }
+      cursor: pointer;
+      font-weight: lighter; }
       section#form #contactForm #sendMessageButton:hover {
         background-color: transparent;
         border: 1px solid #fff; }

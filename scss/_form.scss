@@ -83,6 +83,7 @@ section#form {
       text-transform: uppercase;
       border-radius: 0;
       cursor: pointer;
+      font-weight: lighter;
       &:hover{
         background-color:transparent;
         border: 1px solid $white;
