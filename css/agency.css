@@ -60,7 +60,7 @@ section {
   text-shadow: none; }
 
 ::selection {
-  background: #fed136;
+  background: #515151;
   text-shadow: none; }
 
 img::selection {
@@ -70,7 +70,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #fed136; }
+  -webkit-tap-highlight-color: #515151; }
 
 #mainNav {
   background-color: #fff; }
@@ -174,6 +174,13 @@ header.masthead {
   margin: 15px 0;
   text-transform: none; }
 
+#portfolio h2 {
+  font-size: 24px;
+  margin-bottom: 40px; }
+
+#portfolio span {
+  color: #835077; }
+
 #portfolio .portfolio-item {
   background-image: url("../img/image-1.png");
   background-repeat: no-repeat;
@@ -198,7 +205,8 @@ header.masthead {
   #portfolio .portfolio-caption h4 {
     font-size: 17px;
     font-weight: lighter;
-    margin: 0;
+    margin: 0 0 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #fff;
     text-transform: none; }
   #portfolio .portfolio-caption p {
@@ -210,74 +218,6 @@ header.masthead {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
-
-.portfolio-modal .modal-dialog {
-  max-width: none;
-  height: 100%;
-  margin: 0; }
-
-.portfolio-modal .modal-content {
-  min-height: 100%;
-  padding: 100px 0;
-  text-align: center;
-  border: none;
-  border-radius: 0;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
-  .portfolio-modal .modal-content h2 {
-    font-size: 3em;
-    margin-bottom: 15px; }
-  .portfolio-modal .modal-content p {
-    margin-bottom: 30px; }
-  .portfolio-modal .modal-content p.item-intro {
-    font-size: 16px;
-    font-style: italic;
-    margin: 20px 0 30px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  .portfolio-modal .modal-content ul.list-inline {
-    margin-top: 0;
-    margin-bottom: 30px; }
-  .portfolio-modal .modal-content img {
-    margin-bottom: 30px; }
-  .portfolio-modal .modal-content button {
-    cursor: pointer; }
-
-.portfolio-modal .close-modal {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  width: 75px;
-  height: 75px;
-  cursor: pointer;
-  background-color: transparent; }
-  .portfolio-modal .close-modal:hover {
-    opacity: 0.3; }
-  .portfolio-modal .close-modal .lr {
-    /* Safari and Chrome */
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    /* IE 9 */
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    background-color: #212529; }
-    .portfolio-modal .close-modal .lr .rl {
-      /* Safari and Chrome */
-      z-index: 1052;
-      width: 1px;
-      height: 75px;
-      /* IE 9 */
-      -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      transform: rotate(90deg);
-      background-color: #212529; }
-
-.portfolio-modal .modal-backdrop {
-  display: none;
-  opacity: 0; }
 
 .timeline {
   position: relative;
@@ -414,7 +354,7 @@ header.masthead {
       padding: 0 100px 20px 20px; } }
 
 section#team {
-  padding: 0; }
+  padding: 70px 0; }
 
 #team {
   margin-bottom: 50px;
@@ -469,6 +409,8 @@ section#contact {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 footer {
+  background-color: #371238;
+  color: #fff;
   padding: 25px 0;
   text-align: center; }
   footer span.copyright {
@@ -482,9 +424,15 @@ footer {
     margin-bottom: 0;
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  footer a {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase; }
+    footer a:hover {
+      color: #835077; }
 
 ul.social-buttons {
-  margin-bottom: 0; }
+  margin: 30px auto; }
   ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
@@ -494,12 +442,12 @@ ul.social-buttons {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    color: white;
+    color: #330834;
     border-radius: 100%;
     outline: none;
-    background-color: #212529; }
+    background-color: #fff; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
+      background-color: #835077; }
 
 section#area {
   padding: 60px 0 0 !important;
@@ -593,3 +541,75 @@ section#email {
   section#email .img-contact {
     position: absolute;
     bottom: 0; }
+
+section#form {
+  padding: 30px 0 0 !important;
+  text-align: right;
+  background-color: #4e2f47;
+  height: 500px; }
+  section#form .section-heading {
+    color: #fff;
+    font-size: 27px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 30px; }
+  section#form ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  section#form :-moz-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    /* Firefox 18- */
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  section#form ::-moz-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    /* Firefox 19+ */
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  section#form :-ms-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  section#form p {
+    color: #515151;
+    text-align: right;
+    font-size: 15px; }
+  section#form .list {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    color: #330834;
+    font-weight: bold;
+    margin: 20px 0; }
+  section#form span {
+    color: #835077;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px; }
+  section#form .img-mapa {
+    width: 58%;
+    float: left; }
+  section#form #contactForm {
+    background-color: #835077;
+    padding: 28px 30px 18px; }
+    section#form #contactForm .form-title {
+      font-size: 13px;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 20px; }
+    section#form #contactForm .form-group {
+      margin-bottom: 10px; }
+    section#form #contactForm input {
+      border-radius: 0; }
+    section#form #contactForm #sendMessageButton {
+      width: 100%;
+      color: #fff;
+      background-color: #4e2f47;
+      border: 1px solid #4e2f47;
+      text-transform: uppercase;
+      border-radius: 0;
+      cursor: pointer; }
+      section#form #contactForm #sendMessageButton:hover {
+        background-color: transparent;
+        border: 1px solid #fff; }

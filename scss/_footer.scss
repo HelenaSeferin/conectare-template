@@ -1,5 +1,7 @@
 // Styling for the footer
 footer {
+  background-color: $purple;
+  color: $white;
   padding: 25px 0;
   text-align: center;
   span.copyright {
@@ -15,10 +17,18 @@ footer {
     text-transform: none;
     @include heading-font;
   }
+  a{
+    color: $white;
+    font-size: 13px;
+    text-transform: uppercase;
+    &:hover{
+      color: $light-purple;
+    }
+  }
 }
 
 ul.social-buttons {
-  margin-bottom: 0;
+  margin: 30px auto;
   li {
     a {
       font-size: 20px;
@@ -29,14 +39,14 @@ ul.social-buttons {
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
-      color: white;
+      color: $dark-purple;
       border-radius: 100%;
       outline: none;
-      background-color: $gray-900;
+      background-color: $white;
       &:active,
       &:focus,
       &:hover {
-        background-color: $primary;
+        background-color: $light-purple;
       }
     }
   }

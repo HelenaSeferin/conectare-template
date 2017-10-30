@@ -1,0 +1,92 @@
+// Styling for the contact section
+section#form {
+  padding: 30px 0 0!important;
+  text-align: right;
+  background-color: $medium-purple;
+  height: 500px;
+  .section-heading {
+    color: $white;
+    font-size: 27px;
+    font-weight: lighter;    
+    text-align: center; 
+    margin-bottom: 30px;
+  }
+    
+  ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  :-moz-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    /* Firefox 18- */
+    @include heading-font;
+  }
+  ::-moz-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    /* Firefox 19+ */
+    @include heading-font;
+  }
+  :-ms-input-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  p{
+    color: $grey;
+    text-align: right;
+    font-size: 15px;
+  }
+  .list{
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    color: $dark-purple;
+    font-weight: bold;
+    margin: 20px 0;
+
+  }
+  span{
+    color: $light-purple;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+  }
+  .img-mapa{
+    width: 58%;
+    float: left;
+  }
+
+  #contactForm{
+    background-color: $light-purple;
+    padding: 28px 30px 18px;
+
+    .form-title{
+      font-size: 13px;
+      color: $white;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .form-group{
+      margin-bottom: 10px;
+    }
+    input{
+      border-radius: 0;
+    }
+    #sendMessageButton{
+      width: 100%;
+      color: $white;
+      background-color: $medium-purple;
+      border: 1px solid $medium-purple;
+      text-transform: uppercase;
+      border-radius: 0;
+      cursor: pointer;
+      &:hover{
+        background-color:transparent;
+        border: 1px solid $white;
+      }
+    }
+  }
+}

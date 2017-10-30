@@ -75,7 +75,7 @@ section {
 }
 
 ::selection {
-  background: $primary;
+  background: $grey;
   text-shadow: none;
 }
 
@@ -88,5 +88,5 @@ img::-moz-selection {
 }
 
 body {
-  -webkit-tap-highlight-color: $primary;
+  -webkit-tap-highlight-color: $grey;
 }
