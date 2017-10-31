@@ -17,7 +17,8 @@
     right: 0;
     margin: 0 0 15px;
     background-size: 50%;
-    }
+    float: right;
+  }
     .portfolio-caption {
       width: 50%;
       margin: 0 auto;
@@ -25,13 +26,14 @@
       text-align: center;
       background-color: $white;
       float: right;
-      height: 287px;
+      height: 279px;
       color: $dark-purple;
 
       &:hover{
         background-color: $light-purple;
         color: $white;
         cursor: pointer;
+        transition:.2s;
        h4{
         border-bottom: 1px solid $white;
        }
@@ -70,3 +72,21 @@
     }
   }
 }
+
+
+.slick-prev:before {
+    content: " ";
+    background-image: url('../img/left.png');
+    background-repeat: no-repeat;
+
+}
+.slick-next:before {
+    content: " ";
+    background-image: url('../img/right.png');
+    background-repeat: no-repeat;
+
+}
+.slick-next:before, .slick-prev:before {
+    font-size: 56px !important;
+    color: transparent !important;
+  }

@@ -5,6 +5,11 @@ section#area {
   background-color: $white;
   background-image: url('../img/area.png');
   background-repeat: no-repeat;
+
+  @media(max-width: 1210px){
+    background-image: none;
+    text-align: center;
+  }
   .section-heading {
     color: $dark-purple;
     font-size: 27px;
@@ -40,6 +45,10 @@ section#area {
     text-align: right;
     font-size: 15px;
     @include serif-font;
+
+    @media(max-width: 1210px){
+      text-align: center;
+    }
   }
   .list{
     padding-bottom: 0;
@@ -58,3 +67,4 @@ section#area {
     @include serif-font;
   }
 }
+
