@@ -593,6 +593,9 @@ section#form {
   text-align: right;
   background-color: #4e2f47;
   height: 500px; }
+  @media (max-width: 991px) {
+    section#form {
+      height: auto; } }
   section#form .section-heading {
     color: #fff;
     font-size: 27px;
@@ -637,6 +640,10 @@ section#form {
   section#form .img-mapa {
     width: 58%;
     float: left; }
+    @media (max-width: 991px) {
+      section#form .img-mapa {
+        width: 100%;
+        float: none; } }
   section#form #contactForm {
     background-color: #835077;
     padding: 28px 30px 18px; }
@@ -680,6 +687,9 @@ section#form-dados {
     bottom: 0;
     display: block;
     vertical-align: bottom; }
+    @media (max-width: 580px) {
+      section#form-dados img {
+        position: relative; } }
   section#form-dados .fa {
     margin-right: 5px; }
   section#form-dados p {
@@ -690,6 +700,11 @@ section#form-dados {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold; }
+    @media (max-width: 580px) {
+      section#form-dados p {
+        position: relative;
+        right: 0;
+        bottom: 0; } }
     section#form-dados p span {
       font-size: 17px;
       color: #d1a737; }
