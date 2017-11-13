@@ -199,7 +199,7 @@ header.masthead {
 #portfolio .portfolio-caption {
   width: 50%;
   margin: 0 auto;
-  padding: 40px 30px;
+  padding: 17px;
   text-align: center;
   background-color: #fff;
   float: right;
@@ -215,7 +215,7 @@ header.masthead {
     #portfolio .portfolio-caption:hover p {
       color: #fff; }
   #portfolio .portfolio-caption h4 {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: lighter;
     margin: 0 0 10px;
     padding-bottom: 10px;
@@ -229,7 +229,8 @@ header.masthead {
     margin: 0;
     text-align: justify;
     color: #515151;
-    font-family: 'Lato', sans-serif; }
+    font-family: 'Lato', sans-serif;
+    line-height: 20px; }
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {

@@ -22,7 +22,7 @@
     .portfolio-caption {
       width: 50%;
       margin: 0 auto;
-      padding: 40px 30px;
+      padding: 17px;
       text-align: center;
       background-color: $white;
       float: right;
@@ -42,7 +42,7 @@
        }
       }
       h4 {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: lighter;
         margin: 0 0 10px;
         padding-bottom: 10px;
@@ -59,6 +59,7 @@
         text-align: justify;
         color: $grey;
         @include serif-font;
+        line-height: 20px;
       }
     }
 
