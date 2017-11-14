@@ -32,6 +32,9 @@
         color: $dark-purple;
         text-transform: lowercase;
         @include heading-font;
+        @media(max-width:991px) {
+          text-align: center;
+        }
         &.active,
         &:hover {
           background-color: $dark-purple;

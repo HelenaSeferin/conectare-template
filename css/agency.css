@@ -97,6 +97,9 @@ body {
     color: #330834;
     text-transform: lowercase;
     font-family: 'Ubuntu', sans-serif; }
+    @media (max-width: 991px) {
+      #mainNav .navbar-nav .nav-item .nav-link {
+        text-align: center; } }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       background-color: #330834;
       color: #fff; }
@@ -188,23 +191,104 @@ header.masthead {
   font-weight: 700; }
 
 #portfolio .portfolio-item {
+  background-image: url("../img/thumbnail_ManutencaoComputadores.jpg");
+  background-repeat: no-repeat;
+  height: 288px;
+  right: 0;
+  margin: 0 0 15px;
+  background-size: 47%;
+  float: right; }
+  @media (max-width: 1199px) {
+    #portfolio .portfolio-item {
+      background-image: none; } }
+
+#portfolio .portfolio-item01 {
+  background-image: url("../img/thumbnail_Projetos_de_TI.jpg");
+  background-repeat: no-repeat;
+  height: 288px;
+  right: 0;
+  margin: 0 0 15px;
+  background-size: 47%;
+  float: right; }
+  @media (max-width: 1199px) {
+    #portfolio .portfolio-item01 {
+      background-image: none; } }
+
+#portfolio .portfolio-item02 {
+  background-image: url("../img/thumbnail_Internet_e_Redes.jpg");
+  background-repeat: no-repeat;
+  height: 288px;
+  right: 0;
+  margin: 0 0 15px;
+  background-size: 47%;
+  float: right; }
+  @media (max-width: 1199px) {
+    #portfolio .portfolio-item02 {
+      background-image: none; } }
+
+#portfolio .portfolio-item03 {
+  background-image: url("../img/thumbnail_ManutencaoImpressoras.jpg");
+  background-repeat: no-repeat;
+  height: 288px;
+  right: 0;
+  margin: 0 0 15px;
+  background-size: 47%;
+  float: right; }
+  @media (max-width: 1199px) {
+    #portfolio .portfolio-item03 {
+      background-image: none; } }
+
+#portfolio .portfolio-item04 {
   background-image: url("../img/image-1.png");
   background-repeat: no-repeat;
   height: 288px;
   right: 0;
   margin: 0 0 15px;
-  background-size: 50%;
+  background-size: 47%;
   float: right; }
+  @media (max-width: 1199px) {
+    #portfolio .portfolio-item04 {
+      background-image: none; } }
+
+#portfolio .portfolio-item05 {
+  background-image: url("../img/image-1.png");
+  background-repeat: no-repeat;
+  height: 288px;
+  right: 0;
+  margin: 0 0 15px;
+  background-size: 46%;
+  float: right; }
+  @media (max-width: 1199px) {
+    #portfolio .portfolio-item05 {
+      background-image: none; } }
+
+#portfolio .portfolio-item06 {
+  background-image: url("../img/thumbnail_CloudComputing.jpg");
+  background-repeat: no-repeat;
+  height: 288px;
+  right: 0;
+  margin: 0 0 15px;
+  background-size: 46%;
+  float: right; }
+  @media (max-width: 1199px) {
+    #portfolio .portfolio-item06 {
+      background-image: none; } }
 
 #portfolio .portfolio-caption {
-  width: 50%;
+  width: 55%;
   margin: 0 auto;
   padding: 17px;
   text-align: center;
   background-color: #fff;
   float: right;
-  height: 279px;
+  height: 260px;
   color: #330834; }
+  @media (max-width: 1199px) {
+    #portfolio .portfolio-caption {
+      width: 100%;
+      background-color: #835077;
+      color: #fff;
+      padding: 25px; } }
   #portfolio .portfolio-caption:hover {
     background-color: #835077;
     color: #fff;
@@ -222,15 +306,21 @@ header.masthead {
     text-transform: none;
     text-transform: uppercase;
     border-bottom: 1px solid #515151; }
+    @media (max-width: 1199px) {
+      #portfolio .portfolio-caption h4 {
+        border-bottom: 1px solid #fff; } }
     #portfolio .portfolio-caption h4 strong {
       font-weight: 700; }
   #portfolio .portfolio-caption p {
-    font-size: 15px;
+    font-size: 14px;
     margin: 0;
     text-align: justify;
     color: #515151;
     font-family: 'Lato', sans-serif;
     line-height: 20px; }
+    @media (max-width: 1199px) {
+      #portfolio .portfolio-caption p {
+        color: #fff; } }
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
@@ -549,7 +639,7 @@ section#email {
     margin-top: 8px;
     margin-bottom: 19px; }
     section#email .form-group input {
-      padding: 5px; }
+      padding: .375rem .75rem; }
     section#email .form-group input.form-control {
       height: auto; }
     section#email .form-group textarea.form-control {
