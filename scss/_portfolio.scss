@@ -109,6 +109,10 @@
         color: $white;
         padding: 25px;
       }
+      @media(max-width:400px) {
+        height: 320px;
+        margin-bottom: 20px;
+      }
 
       &:hover{
         background-color: $light-purple;

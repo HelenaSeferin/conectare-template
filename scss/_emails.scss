@@ -59,6 +59,9 @@ section#email {
   .img-contact{
     position: absolute;
     bottom: 0;
+      @media(max-width:400px) {
+        display: none;
+      }
 
 
   }
